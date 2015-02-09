@@ -1,0 +1,26 @@
+score{
+	itr=128;
+	nr_ifs=4;
+	ifs_mode=1;
+	
+	bpq=2;
+	speedrange=800000,300000,72,64;
+}
+channel{
+	id=0;
+	instrument=0;
+	pitchlist=ms,60,15,0;
+	pitchlistw=fill;
+	valuelist= 1,2,4;
+	valuelistw=1,1,1;
+	touchrange=64,127;
+}
+channel{
+	id=1;
+	instrument=0;
+	pitchlist=ms,42,15,0;
+	pitchlistw=fill;
+	valuelist= 1,2,4;
+	valuelistw=1,1,1;
+	touchrange=64,127;
+}
