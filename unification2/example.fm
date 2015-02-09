@@ -1,0 +1,52 @@
+general{
+	speed=4;
+	seed=53;
+}
+
+channel{
+	id=0;
+	instrument=0;
+	volume=127;
+	
+	pitch_type=1;
+	pitch_seed=0;
+	pitch_length=150;
+	pitch_octaves=8;
+	pitch_p=0.7;
+	pitch_frq=0.6;
+	pitch_frqdstr=0.1;
+	pitch_list=60[12],62[20],64[27],65[35],67[44],69[65],71[74],72[89],74[103],76[102],77[84],79[78],81[73],83[46],84[26];
+	
+	value_type=1;
+	value_seed=123;
+	value_length=150;
+	value_octaves=8;
+	value_p=0.6;
+	value_frq=0.5;
+	value_frqdstr=0.0;
+	value_list=1[5],2[3],4[1];
+}
+
+channel{
+	id=1;
+	instrument=0;
+	volume=90;
+	
+	pitch_type=1;
+	pitch_seed=1342;
+	pitch_length=100;
+	pitch_octaves=8;
+	pitch_p=0.7;
+	pitch_frq=0.6;
+	pitch_frqdstr=0.1;
+	pitch_list=48[12],50[20],52[27],53[35],55[44],57[65],59[74],60[89],62[103],64[102],65[84],67[78],69[73],71[46],72[26];
+	
+	value_type=1;
+	value_seed=421;
+	value_length=100;
+	value_octaves=8;
+	value_p=0.6;
+	value_frq=0.5;
+	value_frqdstr=0.0;
+	value_list=1[1],2[5],4[2];
+}
