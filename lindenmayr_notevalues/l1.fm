@@ -1,0 +1,43 @@
+general{
+	speed=8;
+}
+
+channel{
+	id=0;
+	instrument = 56;
+	volume = 127;
+	
+	pitch_iterations = 4;
+	pitch_start = 3;
+	pitch_rules = 1=5678, 2=7654, 3=1122, 4=5624, 5=1234, 6=5432, 7=1354, 8=7531;
+	pitch_index = 1=C3, 2=D3, 3=D#3, 4=F#3, 5=G3, 6=G#3, 7=B3, 8=C4;
+	pitch_begin = ;
+	pitch_end   = ;
+	
+	value_iterations = 4;
+	value_start = 2;
+	value_rules = 1=2211, 2=1122;
+	value_index = 1=2, 2=4;
+	value_begin = ;
+	value_end   = ;
+}
+
+channel{
+	id=1;
+	instrument = 0;
+	volume = 80;
+	
+	pitch_iterations = 6;
+	pitch_start = 5;
+	pitch_rules = 1=246, 2=468, 3=135, 4=357, 5=864, 6=753, 7=642, 8=531;
+	pitch_index = 0=p, 1=C3, 2=D3, 3=D#3, 4=F#3, 5=G3, 6=G#3, 7=B3, 8=C4;
+	pitch_begin = ;
+	pitch_end   = ;
+	
+	value_iterations = 6;
+	value_start = 1;
+	value_rules = 1=111;
+	value_index = 1=1;
+	value_begin = ;
+	value_end   = ;
+}
