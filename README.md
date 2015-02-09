@@ -1,2 +1,2 @@
 # fractals
-Collection of sources for "Darstellung von Fraktalen auf dem Computer"
+Collection of source codes for "Darstellung von Fraktalen auf dem Computer"
